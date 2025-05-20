@@ -1,0 +1,20 @@
+[mgr]
+show_hidden = false
+
+[opener]
+play = [
+	{ run = 'mpv --force-window "$@"', orphan = true, for = "unix" },
+	{ run = 'reaper "$@"', orphan = true, for = "unix" }
+]
+edit = [
+	{ run = '$EDITOR "$@"', block = true, for = "unix" },
+	{ run = "%EDITOR% %*",  block = true, for = "windows" },
+]
+open = [
+	{ run = 'xdg-open "$@"', desc = "Open" },
+]
+
+[plugin]
+prepend_previewers = [
+    { mime = "audio/*",   run = "exifaudio"}
+]
