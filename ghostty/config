@@ -1,1 +1,2 @@
-theme = GruvboxDark # GruvboxDarkHard gruvbox-material Afterglow
+#GruvboxDark GruvboxDarkHard gruvbox-material Afterglow
+theme = gruvbox-material 
