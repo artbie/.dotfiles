@@ -6,6 +6,7 @@ export XDG_STATE_HOME=$HOME/.local/state
 
 # zsh
 export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
+export ZSH_COMPDUMP=$ZDOTDIR/cache/.zcompdump-$HOST
 
 export HISTFILE=$ZDOTDIR/.zsh_history
 export HISTSIZE=10000                       # Maximum events for internal history
