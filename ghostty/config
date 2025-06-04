@@ -1,2 +1,4 @@
 #GruvboxDark GruvboxDarkHard gruvbox-material Afterglow
 theme = gruvbox-material 
+
+gtk-titlebar = false
