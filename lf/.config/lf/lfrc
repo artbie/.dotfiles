@@ -106,3 +106,17 @@ cmd zip ${{
     zip -r $1.zip $1
     rm -rf $1
 }}
+
+##### MOJE
+set hidden
+#set icons
+#set number
+#set relativenumber
+set shell zsh
+set promptfmt "\033[34;1m%d\033[0m\033[1m%f\033[0m"
+
+map gc cd ~/code
+map gn cd ~/notes
+
+map gH cd /mnt/c/Users/m015166/
+map gC cd /mnt/c/Users/m015166/code

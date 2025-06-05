@@ -8,8 +8,6 @@ setopt HIST_REDUCE_BLANKS           # delete empty lines from history file
 setopt HIST_NO_STORE                # do not add history and fc commands to the history
 setopt HIST_NO_FUNCTIONS            # don't store function definitions
 
-. "$HOME/.local/share/cargo/env"
-
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
 	yazi "$@" --cwd-file="$tmp"
@@ -19,7 +17,13 @@ function y() {
 }
 
 # Set up fzf key bindings and fuzzy completion
-source <(fzf --zsh)
+#source <(fzf --zsh)
 
 # Set up the Starship prompt
-eval "$(starship init zsh)"
+#eval "$(starship init zsh)"
+
+# ohmyzsh
+export ZSH="$ZDOTDIR/ohmyzsh"
+ZSH_THEME="robbyrussell"
+plugins=(sudo ubuntu git fzf kubectl)
+source $ZSH/oh-my-zsh.sh
