@@ -1,5 +1,5 @@
-# FD
-alias fd=fdfind
+alias fd=/usr/bin/fdfind
+alias vim=/usr/bin/nvim
 
 setopt INC_APPEND_HISTORY           # ensures that commands are added to the history immediately
 setopt HIST_IGNORE_ALL_DUPS         # not writing duplicates to the history file
