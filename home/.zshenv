@@ -66,6 +66,3 @@ export KUBECACHEDIR="$XDG_CACHE_HOME/kube/"
 #export NO_PROXY="localhost,127.0.0.0/8,::1,.root4.net,.oneadr.net,.qaoneadr.local"
 #export HTTP_PROXY_REQUEST_FULLURI=0
 #export HTTPS_PROXY_REQUEST_FULLURI=0
-
-# rust
-. "/home/a/.local/share/cargo/env"

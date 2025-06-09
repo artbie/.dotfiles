@@ -22,6 +22,9 @@ function y() {
 # Set up the Starship prompt
 #eval "$(starship init zsh)"
 
+# rust
+. "$HOME/.local/share/cargo/env"
+
 # ohmyzsh
 export ZSH="$ZDOTDIR/ohmyzsh"
 ZSH_THEME="robbyrussell"
