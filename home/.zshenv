@@ -13,8 +13,8 @@ export HISTSIZE=1000000000              # Maximum events for internal history
 export SAVEHIST=1000000000              # Maximum events in history file
 
 # editor
-export EDITOR=vim
-export VISUAL=vim
+export EDITOR=nvim
+export VISUAL=nvim
 
 # less
 export LESSHISTFILE=
