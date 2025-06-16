@@ -23,7 +23,7 @@ function y() {
 #eval "$(starship init zsh)"
 
 # rust
-. "$HOME/.local/share/cargo/env"
+#. "$HOME/.local/share/cargo/env"
 
 # ohmyzsh
 export ZSH="$ZDOTDIR/ohmyzsh"
